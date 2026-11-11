@@ -1,0 +1,108 @@
+{
+  "original": {
+    "gaussian7_mixed_approx": {
+      "node": "n13",
+      "bit": 10,
+      "estimated_roi_flip_mse": 506.25,
+      "effective_output_pixels": 1.0,
+      "exact_nodes": [],
+      "unit_replacements": [],
+      "unit_node": 5
+    },
+    "sobel7_mixed_approx": {
+      "node": "n121",
+      "bit": 11,
+      "estimated_roi_flip_mse": 576.0,
+      "effective_output_pixels": 1.0,
+      "exact_nodes": [],
+      "unit_replacements": [],
+      "unit_node": 15
+    },
+    "dct_shared": {
+      "node": "n1404",
+      "bit": 7,
+      "estimated_roi_flip_mse": 256.0000000000001,
+      "effective_output_pixels": 64.0,
+      "exact_nodes": [],
+      "unit_replacements": [],
+      "unit_node": 8
+    },
+    "dwt97_shared": {
+      "node": "n2976",
+      "bit": 7,
+      "estimated_roi_flip_mse": 644.0393152236938,
+      "effective_output_pixels": 1.0,
+      "exact_nodes": [],
+      "unit_replacements": [],
+      "unit_node": 64
+    }
+  },
+  "changed": {
+    "gaussian7_mixed_approx": {
+      "node": "n13",
+      "bit": 10,
+      "estimated_roi_flip_mse": 506.25,
+      "effective_output_pixels": 1.0,
+      "exact_nodes": [],
+      "unit_replacements": [
+        {
+          "node": 11,
+          "unit": "5RP"
+        }
+      ],
+      "unit_node": 5
+    },
+    "sobel7_mixed_approx": {
+      "node": "n121",
+      "bit": 11,
+      "estimated_roi_flip_mse": 576.0,
+      "effective_output_pixels": 1.0,
+      "exact_nodes": [],
+      "unit_replacements": [
+        {
+          "node": 2,
+          "unit": "5RP"
+        }
+      ],
+      "unit_node": 15
+    },
+    "dct_shared": {
+      "node": "n1442",
+      "bit": 7,
+      "estimated_roi_flip_mse": 256.00000000000006,
+      "effective_output_pixels": 42.66666666666666,
+      "exact_nodes": [],
+      "unit_replacements": [
+        {
+          "node": 8,
+          "unit": "5QC"
+        }
+      ],
+      "unit_node": 14
+    },
+    "dwt97_shared": {
+      "node": "n2990",
+      "bit": 7,
+      "estimated_roi_flip_mse": 644.0393152236938,
+      "effective_output_pixels": 1.0,
+      "exact_nodes": [],
+      "unit_replacements": [
+        {
+          "node": 65,
+          "unit": "5RP"
+        }
+      ],
+      "unit_node": 68
+    }
+  },
+  "roi": {
+    "grid": 320,
+    "threshold": 85,
+    "bbox_half_open": [
+      120,
+      135,
+      193,
+      201
+    ]
+  }
+}

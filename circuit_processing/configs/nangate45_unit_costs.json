@@ -1,0 +1,18 @@
+{
+  "library_sha256": "fb62b7693cb53697638a10feed6e8433b29bfbc5528d267fc393658008eea56c",
+  "schema": 1,
+  "source": "Nangate45 typical, DC L-2016.03-SP1 compile, standalone adders, 10 ns virtual clock and 1 ns input/output delays",
+  "unit_area_um2": {
+    "5L8": 54.264,
+    "5PD": 36.442,
+    "5PN": 36.974,
+    "5QC": 58.52,
+    "5QT": 59.849999,
+    "5RP": 47.082,
+    "5SB": 33.782,
+    "5TE": 43.092,
+    "5Z0": 29.26,
+    "exact32": 134.596001,
+    "exact64": 270.788003
+  }
+}

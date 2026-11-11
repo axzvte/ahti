@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "input_min": -2048,
+  "input_max": 2047,
+  "output_bits": 13,
+  "operand_pairs_per_unit": 16777216,
+  "error_definition": "adapter_output - (a + b)",
+  "units": {
+    "5L8": {
+      "min_error": -2,
+      "max_error": 2,
+      "wce": 2
+    },
+    "5PD": {
+      "min_error": -18,
+      "max_error": 19,
+      "wce": 19
+    },
+    "5PN": {
+      "min_error": -20,
+      "max_error": 21,
+      "wce": 21
+    },
+    "5QC": {
+      "min_error": -1,
+      "max_error": 1,
+      "wce": 1
+    },
+    "5QT": {
+      "min_error": 0,
+      "max_error": 1,
+      "wce": 1
+    },
+    "5RP": {
+      "min_error": -3,
+      "max_error": 4,
+      "wce": 4
+    },
+    "5SB": {
+      "min_error": -46,
+      "max_error": 47,
+      "wce": 47
+    },
+    "5TE": {
+      "min_error": -8,
+      "max_error": 9,
+      "wce": 9
+    },
+    "5Z0": {
+      "min_error": -86,
+      "max_error": 65,
+      "wce": 86
+    }
+  },
+  "source_hash_algorithm": "sha256-lf-normalized",
+  "sources": {
+    "src/approximate/evoapprox_adapter.cpp": "e162f5999827d0aa14bf6f74626d644338bba9d3e19390d7b0f3f7db57168116",
+    "third_party/evoapproxlib/add12se_5L8.c": "cdc09ee264ba67b752208227ebb41498780517d6942bbb6159e30a35690325a7",
+    "third_party/evoapproxlib/add12se_5PD.c": "e2c57505acb863096e9515f4d9fb74dce27f817a14b6900495b6682a6265bd4a",
+    "third_party/evoapproxlib/add12se_5PN.c": "699040123c06150ba73448844a415540bf040d39e5eda4635ebf7416c690cf83",
+    "third_party/evoapproxlib/add12se_5QC.c": "937c7647d98c81643d9e01a31a4105a30bb0347286fdb4bbf7ad3d6919503db4",
+    "third_party/evoapproxlib/add12se_5QT.c": "1e159347d97cd2b98a577900e85410d493c7a0e29d08a63cfe24736dbf5c5828",
+    "third_party/evoapproxlib/add12se_5RP.c": "a6394aab970710abeec2467d65b21d74deff0e2582d7fc7150a6e0cfb9fd3eea",
+    "third_party/evoapproxlib/add12se_5SB.c": "ee12fa246fc5a31cc0e658fe0f182a4210760e666a0d408417837916f6d59a6b",
+    "third_party/evoapproxlib/add12se_5TE.c": "11cc5eee95747979e313569a033747150276c9b2105cf29b9c739c0f0be33d26",
+    "third_party/evoapproxlib/add12se_5Z0.c": "4a3dca8fd851a792e206d7e52f2752a252ec5fe6403767f7e2b0bacad0ded00a"
+  }
+}

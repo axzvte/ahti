@@ -1,0 +1,3 @@
+numpy
+Pillow
+pycparser==2.23

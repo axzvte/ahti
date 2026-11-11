@@ -1,0 +1,9 @@
+.venv/
+**/__pycache__/
+*.pyc
+**/build/
+**/results/
+*.pth
+*.pt
+*.tar.gz
+*:Zone.Identifier
